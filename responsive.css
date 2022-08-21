@@ -1,0 +1,122 @@
+@media screen and (max-width:360px){
+nav .links a{
+    display: none;
+}
+.links .fa-bars{
+    display: block;
+}
+main{
+    background-size: 500px;
+}
+main .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main .info h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+main .info h4{
+    text-align: center;
+    margin-left: 20px;
+}
+main .info p{
+    text-align: center;
+    margin-left: 20px;
+}
+main .info .price{
+    text-align: center;
+    margin-left: 20px;
+}
+main .info button{
+    margin-left: 30px;
+}
+.services{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 200px;
+    
+}
+.services .grid{
+    display: flex;
+    flex-direction: column;
+    background: rgb(206, 152, 161);
+}
+.grid::after{
+    display: none; 
+    
+}
+section .testimonials{
+    margin-top: 800px;
+    text-align: center;
+    justify-content: center;
+}
+section .info_testimonials h2::after{
+    margin-left: 50px;
+    bottom: 15px;
+}
+section .info_testimonials p{
+    text-align: center;
+    margin-left: 20px;
+}
+section .testimonials .testimonials_grid{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(187, 82, 100);
+}
+.testimonials_grid::after{
+    display: none;
+}
+section .works{
+    margin-top: 550px;
+    text-align: center;
+}
+section .works .work_header h3{
+    font-size: 25px;
+}
+section .works .work_header::after{
+    margin-left: 10px;
+    bottom: 37px;
+}
+section .works{
+    background-color: rgb(206, 152, 161);
+}
+section .works .item_house{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(206, 152, 161);
+}
+footer{
+    height: 200vh;
+}
+footer section{
+    margin-top: 900px;
+    margin-bottom: 100px;
+}
+footer section .icon_wrapper i{
+    padding: 5px;
+}
+footer section h3{
+    font-size: 25px;
+}
+footer section button{
+    padding: 15px;
+}
+footer .zamil_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+footer .zamil_extra {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid wheat; 
+    padding: 10px;
+}
+}
